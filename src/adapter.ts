@@ -52,7 +52,7 @@ export class BlockfrostAdapter {
     this.networkId = networkId;
     this.api = new BlockFrostAPI({
       projectId,
-      isTestnet: networkId === NetworkId.TESTNET,
+      isTestnet: networkId === NetworkId.PREPROD,
     });
   }
 

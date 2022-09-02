@@ -1,5 +1,5 @@
 export enum NetworkId {
-  TESTNET = 0,
+  PREPROD = 0,
   MAINNET,
 }
 

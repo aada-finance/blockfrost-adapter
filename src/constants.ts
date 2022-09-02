@@ -1,14 +1,14 @@
 import { NetworkId } from "./types";
 
 export const ORDER_ADDRESS = {
-  [NetworkId.TESTNET]:
+  [NetworkId.PREPROD]:
     "addr_test1wzn9efv2f6w82hagxqtn62ju4m293tqvw0uhmdl64ch8uwc5lpd8w",
   [NetworkId.MAINNET]:
     "addr1wxn9efv2f6w82hagxqtn62ju4m293tqvw0uhmdl64ch8uwc0h43gt",
 };
 
 export const POOL_ADDRESS = {
-  [NetworkId.TESTNET]:
+  [NetworkId.PREPROD]:
     "addr_test1zrsnz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzvrajt8r8wqtygrfduwgukk73m5gcnplmztc5tl5ngy0upqs8q93k",
   [NetworkId.MAINNET]:
     "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxz2j2c79gy9l76sdg0xwhd7r0c0kna0tycz4y5s6mlenh8pq0xmsha",

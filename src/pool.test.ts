@@ -26,8 +26,8 @@ test("can handle pool with one side being LP tokens", () => {
     "421d71a088b55789301a403994760d1f2854444b0380fc3df8970f8e212b3f30";
   expect(
     isValidPoolOutput(
-      NetworkId.TESTNET,
-      POOL_ADDRESS[NetworkId.TESTNET],
+      NetworkId.PREPROD,
+      POOL_ADDRESS[NetworkId.PREPROD],
       value,
       datumHash
     )
