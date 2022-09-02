@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/minswap/blockfrost-adapter#readme",
   "dependencies": {
-    "@blockfrost/blockfrost-js": "^4.1.0",
+    "@blockfrost/blockfrost-js": "^5.0.0",
     "@minswap/tiny-invariant": "^1.2.0",
     "big.js": "^6.1.1"
   },
